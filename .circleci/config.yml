@@ -23,7 +23,7 @@ jobs:
           command: "echo Hello, World!"
       - run: |
           pwd
-          ls /03-Terraform-Settings-Providers-Resources/       
+          ls /03-Terraform-Settings-Providers-Resources/terraform-manifest/
       - run:
           name: "terraform init"
           command: |           

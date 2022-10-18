@@ -1,3 +1,5 @@
+CircelCI [![CircleCI](https://dl.circleci.com/status-badge/img/gh/senthilvaradha/terraform-on-aws-eks/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/senthilvaradha/terraform-on-aws-eks/tree/main)
+
 # [Terraform on AWS EKS Kubernetes IaC SRE- 50 Real-World Demos](https://links.stacksimplify.com/terraform-on-aws-eks-kubernetes-iac-sre)
 
 [![Image](https://stacksimplify.com/course-images/terraform-on-aws-eks-kubernetes.png "Terraform on AWS EKS Kubernetes IaC SRE- 50 Real-World Demos ")](https://links.stacksimplify.com/terraform-on-aws-eks-kubernetes-iac-sre)

@@ -18,7 +18,9 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
-      - run: ls -a
+      - run: |
+          pwd
+          ls          
       - run:
           name: "terraform init"
           command: terraform init

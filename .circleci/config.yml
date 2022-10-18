@@ -27,6 +27,7 @@ jobs:
             pwd
             cd /03-Terraform-Settings-Providers-Resources/terraform-manifests
             ls /03-Terraform-Settings-Providers-Resources/terraform-manifests
+            ls
             terraform init
             terraform validate
             terraform plan

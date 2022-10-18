@@ -12,7 +12,7 @@ jobs:
       - image: docker.mirror.hashicorp.services/hashicorp/terraform:light
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
-    working_directory: /03-Terraform-Settings-Providers-Resources/terraform-manifests
+    working_directory: /03-Terraform-Settings-Providers-Resources/terraform-manifests/
     steps:
       - checkout
       - run:
@@ -25,8 +25,8 @@ jobs:
           name: "terraform init"
           command: |
             pwd
-            cd /03-Terraform-Settings-Providers-Resources/terraform-manifests
-            ls /03-Terraform-Settings-Providers-Resources/terraform-manifests
+            cd /03-Terraform-Settings-Providers-Resources/terraform-manifests/
+            ls /03-Terraform-Settings-Providers-Resources/terraform-manifests/
             ls
             terraform init
             terraform validate

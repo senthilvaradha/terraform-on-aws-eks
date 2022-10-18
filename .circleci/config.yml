@@ -16,8 +16,8 @@ jobs:
     steps:
       - checkout
       - run:
-        command: pwd
-        working_directory: /03-Terraform-Settings-Providers-Resources/terraform-manifest/
+          command: pwd
+          working_directory: /03-Terraform-Settings-Providers-Resources/terraform-manifest/
       - run:
           name: "Say hello"
           command: "echo Hello, World!"

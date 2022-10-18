@@ -25,7 +25,6 @@ jobs:
           pwd
           ls          
       - run:
-          working_directory
           name: "terraform init"
           command: |           
             ls

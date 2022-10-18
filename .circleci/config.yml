@@ -21,6 +21,7 @@ jobs:
       - run: |
           pwd
           ls
+          ls /03-Terraform-Settings-Providers-Resources
       - run:
           name: "terraform init"
           command: |            

@@ -16,7 +16,7 @@ jobs:
     steps:
       - checkout
       - run:
-          command: ls
+          command: ls -a
           working_directory: /03-Terraform-Settings-Providers-Resources/terraform-manifest/
       - run:
           name: "Say hello"
